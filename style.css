@@ -1,0 +1,16 @@
+img:first-child:hover {
+ transform: scale(2);
+}
+img:first-child:active {
+     transform: translate(500px, 500px) rotate(45deg) skewY(10deg);
+    
+}
+img:nth-child(3):hover {
+   transform: skewX(40deg); 
+}
+img:nth-child(3):active {
+    transform: translateX(200px);
+}
+p {
+ transform: scale(0.5) translateX(20px) rotate(35deg);   
+}
